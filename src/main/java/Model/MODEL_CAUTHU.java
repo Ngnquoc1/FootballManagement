@@ -1,13 +1,11 @@
 package Model;
 
-import oracle.sql.DATE;
-
 import java.sql.Date;
 
 public class MODEL_CAUTHU {
     private int maCT,loaiCT;
     private String  tenCT;
-    private DATE ngaysinh;
+    private Date ngaysinh;
 
     public MODEL_CAUTHU() {
     }
@@ -36,7 +34,7 @@ public class MODEL_CAUTHU {
         this.tenCT = tenCT;
     }
 
-    public DATE getNgaysinh() {
+    public Date getNgaysinh() {
         return ngaysinh;
     }
 

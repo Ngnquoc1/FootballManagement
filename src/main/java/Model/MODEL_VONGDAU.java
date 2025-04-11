@@ -1,10 +1,11 @@
 package Model;
 
-import oracle.sql.DATE;
+
+import java.sql.Date;
 
 public class MODEL_VONGDAU {
     public int maVD,tenVD,maMG;
-    private DATE ngayBD,ngayKT;
+    private Date ngayBD,ngayKT;
     public MODEL_VONGDAU() {}
 
     public int getMaVD() {
@@ -31,19 +32,19 @@ public class MODEL_VONGDAU {
         this.maMG = maMG;
     }
 
-    public DATE getNgayBD() {
+    public Date getNgayBD() {
         return ngayBD;
     }
 
-    public void setNgayBD(DATE ngayBD) {
+    public void setNgayBD(Date ngayBD) {
         this.ngayBD = ngayBD;
     }
 
-    public DATE getNgayKT() {
+    public Date getNgayKT() {
         return ngayKT;
     }
 
-    public void setNgayKT(DATE ngayKT) {
+    public void setNgayKT(Date ngayKT) {
         this.ngayKT = ngayKT;
     }
 }
